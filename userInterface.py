@@ -53,8 +53,8 @@ def validateUserShot(x: int, y: int) -> bool:
 
 
 def getXYCords(point: str) -> tuple:
-    x1 = ord(starting[0].upper()) - 65
-    y1 = int(starting[1] - 1)
+    x1 = ord(point[0].upper()) - 65
+    y1 = int(point[1] - 1)
     return (x1, y1)
 
 
