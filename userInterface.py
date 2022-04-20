@@ -1,5 +1,3 @@
-import typing
-
 
 # Checks to ensure there is not a horiontal ship overlapping
 # with the coordinates given. Returns True if valid and False otherwise.
@@ -7,7 +5,7 @@ def checkHorizontally(y: int, x1: int, x2: int, board: list) -> bool:
     smaller = min(x1, x2)
     larger = max(x1, x2)
     tmpList = board[y][smaller : larger + 1]
-    if "x" in tmpList:
+    if 'x' in tmpList:
         return False
     return True
 
