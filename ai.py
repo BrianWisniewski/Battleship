@@ -112,8 +112,6 @@ def checkAIHorizontally(y, x1, x2, board):
 
     return True
 
-def MyBalls():
-    print('myballs')
 
 
 def checkAIVertically(x, y1, y2, board):
